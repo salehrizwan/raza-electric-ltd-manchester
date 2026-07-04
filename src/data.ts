@@ -1,3 +1,5 @@
+import modernLed from "./assets/images/modern_led_lighting_1783189899723.jpg";
+import evCharger from "./assets/images/ev_charger_installation_1783189883200.jpg";
 import { ServiceItem, WhyChooseUsItem, WorkStep, ProjectItem, TestimonialItem } from "./types";
 
 // Business details
@@ -199,7 +201,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: "led-lighting",
     title: "Modern LED Lighting",
     category: "Bespoke Lighting",
-    image: "/src/assets/images/modern_led_lighting_1783189899723.jpg", // Generated!
+  image: evCharger, // Generated!
     description: "Sleek, integrated linear task lighting and dimmable accent downlights inside a luxury kitchen and living space.",
   },
   {
@@ -220,7 +222,7 @@ export const FEATURED_PROJECTS: ProjectItem[] = [
     id: "ev-charging-project",
     title: "EV Charger Installation",
     category: "Eco Mobility",
-    image: "/src/assets/images/ev_charger_installation_1783189883200.jpg", // Generated!
+   image: modernLed, // Generated!
     description: "Installation of a wall-mounted smart fast-charging dock synced with home automation systems for electric vehicles.",
   },
   {
