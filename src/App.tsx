@@ -1,3 +1,4 @@
+import heroImage from "./assets/images/luxury_lighting_hero_1783189864735.jpg";
 import { useState, useEffect, FormEvent } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { 
@@ -383,7 +384,7 @@ export default function App() {
               
               <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-16/10 lg:aspect-3/4 bg-primary-charcoal group border border-accent-beige/25 z-10">
                 <img 
-                  src="/src/assets/images/luxury_lighting_hero_1783189864735.jpg" 
+                  src={heroImage} 
                   alt="Premium residential light installation by Raza Electric electrician" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"
