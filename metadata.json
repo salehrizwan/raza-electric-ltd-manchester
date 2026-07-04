@@ -1,0 +1,6 @@
+{
+  "name": "Raza Electric LTD Manchester",
+  "description": "Premium professional electrical services across Manchester including installations, rewiring, LED lighting, EV chargers, and electrical safety inspections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
